@@ -1,0 +1,22 @@
+@media screen and (max-width: 1920px) {
+  iframe.very-specific-design {
+    transform: scale(3) translateX(-33.3%);
+	border: 0;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	transform-origin: 0px 0px;
+  }
+}
+@media screen and (min-width: 1921px) {
+  iframe.very-specific-design {
+	border: 0;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+  }
+}
