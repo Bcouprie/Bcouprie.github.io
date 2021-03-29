@@ -1,9 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-benjamincouprie3.wixsite.com	TRUE	/my-site-2	FALSE	1999999999	svSession	01773795649552f698e4a97ada290dc7548a1c4be6f5f0589da02e42a7b1dfec8fb5da8ec4caa2a2147ddbf77261cdd61e60994d53964e647acf431e4f798bcda4956d6c6d7952d08039149266a97ddb5b506a0bec41dca9a1b6704039d6a559
-benjamincouprie3.wixsite.com	TRUE	/	FALSE	1999999999	XSRF-TOKEN	1616579066|HQdZewoJsX43
-benjamincouprie3.wixsite.com	TRUE	/	FALSE	1999999999	hs	1986539508
-.wixsite.com	TRUE	/	FALSE	1999999999	XSRF-TOKEN	1616579066|HQdZewoJsX43
-benjamincouprie3.wixsite.com	TRUE	/	FALSE	1999999999	SameSite	None
-benjamincouprie3.wixsite.com	TRUE	/	FALSE	1999999999	ssr-caching	cache#desc=miss#varnish=miss#dc#desc=euw2"
-
