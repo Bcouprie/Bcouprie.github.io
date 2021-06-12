@@ -2,7 +2,7 @@
   iframe.very-specific-design {
     transform: scale(3.22) translateX(0.5%) translateY(-2%);
 	border: 0;
-	height: 100%;
+	height: 102%;
 	left: 0;
 	position: absolute;
 	top: 0;
@@ -23,7 +23,7 @@
   iframe.very-specific-design {
 	transform: translateY(-5.5%);
 	border: 0;
-	height: 100%;
+	height: 105.5%;
 	left: 0;
 	position: absolute;
 	top: 0;
