@@ -1,12 +1,12 @@
 @media screen and (max-width: 980px) {
   iframe.very-specific-design {
-    transform: scale(3) translateX(-33.3%);
+    transform: scale(3.22) translateX(0.5%) translateY(-2%);
 	border: 0;
 	height: 100%;
 	left: 0;
 	position: absolute;
 	top: 0;
-	width: 100%;
+	width: fit-content;
 	transform-origin: 0px 0px;
   }
   .scaleable-wrapper{
@@ -14,10 +14,12 @@
 	  height:100%;
 	  overflow-x:hidden;
 	  overflow-y:scroll;
+	  width:100%;
   }
 }
 @media screen and (min-width: 981px) {
   iframe.very-specific-design {
+	transform: translateY(-5.5%);
 	border: 0;
 	height: 100%;
 	left: 0;

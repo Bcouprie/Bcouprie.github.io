@@ -1,5 +1,6 @@
 <HTML>
-<link rel="stylesheet" type="text/css" href="./mystyle.css">
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="./mystyle.css" >
 <HEAD>
 
 <TITLE>Laure-Hélène & Benjamin</TITLE>
@@ -8,25 +9,30 @@
 <BODY BGCOLOR="FFFFFF">
 <div class="scaleable-wrapper" id="scaleable-wrapper">
       <iframe class="very-specific-design" id="very-specific-design" rel="nofollow"  frameborder="0" scrolling="auto" 
-      src="https://benjamincouprie3.wixsite.com/my-site-2/"></iframe></div>
+      src="https://benjamincouprie3.wixsite.com/my-site-2/" onload="sizeIframeToContent('very-specific-design');"></iframe></div>
 
-<!--<script type="text/javascript">
+<script type="text/javascript">
 	function sizeIframeToContent(id) {
     // resize iframe to be the height of the content
     try {
-        var frame = document.getElementById(id);
-        innerDoc = (frame.contentDocument) ?
-                   frame.contentDocument : frame.contentWindow.document;
-        var objToResize = (frame.style) ? frame.style : frame;
-		console.log(objToResize);
+
+		var x = document.getElementById(id);
+		var y = (x.contentWindow || x.contentDocument);
+		if (y.document)y = y.document;
+		console.log(y.body.style.backgroundColor);
+        //var frame = document.getElementById(id);
+        //innerDoc = (frame.contentDocument) ?
+        //           frame.contentDocument : frame.contentWindow.document;
+        //var objToResize = (frame.style) ? frame.style : frame;
+		//console.log(objToResize);
         //objToResize.height = innerDoc.body.scrollHeight + 10 + 'px';
-        objToResize.transform ="scale(3)";//frame.contentWindow.document.getElementById('SITE_CONTAINER').width/frame.width;
+        //objToResize.transform ="scale(3)";//frame.contentWindow.document.getElementById('SITE_CONTAINER').width/frame.width;
     }
     catch (err) {
         console.log(err.message);
     }
 }
-//sizeIframeToContent("very-specific-design");
+
 </script>
 -->
 </BODY>
